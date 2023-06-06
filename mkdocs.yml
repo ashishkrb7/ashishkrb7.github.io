@@ -18,8 +18,8 @@ nav:
   - Education: Education.md
   - Open Source Contribution: Open Source Contribution.md
   - Contact: contact.md
-  # - Blogs:
-  #   - blog/blog_index.md
+  - Publications:
+    - blog/posts/A decision support system for the identification of critical zones in a watershed to implement land management practices.md
 
 theme:
   name: material
