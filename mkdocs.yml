@@ -1,0 +1,95 @@
+# mike deploy --push --update-aliases 0.1 latest
+site_name: ASHISH KUMAR
+# site_description: ChatGPT Prompt Engineering for Developers
+site_author: Ashish Kumar
+
+copyright: "Copyright &copy; 2023 Ashish Kumar"
+
+nav:
+  - About me: index.md
+  - Skills: skill.md
+  # - Research Interest: Research Interest.md
+  # - Sample projects:
+  #   - Summarizing: Summarizing.md
+  #   - Inferring: Inferring.md
+  #   - Transforming: Transforming.md
+  #   - Expanding: Expanding.md
+  - Professional Experience: Professional experience.md
+  - Education: Education.md
+  - Open Source Contribution: Open Source Contribution.md
+  - Contact: contact.md
+  # - Blogs:
+  #   - blog/blog_index.md
+
+theme:
+  name: material
+  favicon: images/favicon.png
+  logo: images/ashishkrb7.png
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - content.tabs.link
+  font: false
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/git-alt
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - meta
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.snippets:
+      base_path: docs
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+  - autorefs
+  - glightbox
+  - blog
+  - mkdocs-video:
+      is_video: True
+      video_muted: True
+      video_controls: True
+      css_style:
+        width: "50%"
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ashishkrb7/
+    - icon: fontawesome/brands/github
+      link: https://github.com/ashishkrb7
+  generator: false
+  version:
+    provider: mike
+    default: stable
+
+watch:
+  - docs
+  - mkdocs.yml
