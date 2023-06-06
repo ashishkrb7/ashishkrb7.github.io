@@ -1,5 +1,3 @@
-<!-- === "Technical Skills" -->
-
 <div class="grid cards" markdown>
 
   - Programming languages: Python, Matlab, R, and C
@@ -13,7 +11,6 @@
   - MLOps tools: MLflow, Azure
   - ML tools: NumPy, pandas, scikit-learn, PyCaret, Spacy, YOLO, Pytorch, TensorFlow etc.
   - Others: MS Office
-
 </div>
 
 
