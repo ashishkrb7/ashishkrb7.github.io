@@ -10,5 +10,3 @@ numkdoc==0.4.1
 mkdocs-video==1.5.0
 mkdocs-blog-plugin==0.25
 mike==1.1.2
-pillow==9.4.0
-cairosvg==2.7.0
