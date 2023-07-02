@@ -1,7 +1,16 @@
 
-
+<div class="grid cards" markdown>
 ---
 - :material-scale-balance:{ .lg .middle } __Open Source Contribution__
+
+    ---
+
+    Coming soon ...
+    
+---
+
+---
+- :material-clock-fast:{ .lg .middle } __Recent Work__
 
     ---
 
@@ -10,3 +19,5 @@
     [:octicons-arrow-right-24: Building Systems with the ChatGPT API](https://ashishkrb7.github.io/Building-Systems-with-the-ChatGPT-API/)
     
 ---
+
+</div>
