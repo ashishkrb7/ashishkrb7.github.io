@@ -7,7 +7,7 @@
     [:octicons-arrow-right-24: Coming soon...](https://github.com/ashishkrb7)
 
     
--   :material-clock-fast:{ .lg .middle } __Recent Work__
+-   :material-clock-fast:{ .lg .middle } __Recent Works__
 
     ---
 
