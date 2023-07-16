@@ -15,6 +15,6 @@
     
     [:octicons-arrow-right-24: Building Systems with the ChatGPT API](https://ashishkrb7.github.io/Building-Systems-with-the-ChatGPT-API/)
     
-    [:octicons-arrow-right-24: LangChain for LLM Application Development](https://github.com/ashishkrb7/LangChain-for-LLM-Application-Development/)
+    [:octicons-arrow-right-24: LangChain for LLM Application Development](https://ashishkrb7.github.io/LangChain-for-LLM-Application-Development/)
 
 </div>
